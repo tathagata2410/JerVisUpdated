@@ -3,7 +3,7 @@ from openai import OpenAI
 # pip install openai 
 # if you saved the key under a different environment variable name, you can do something like:
 client = OpenAI(
-  api_key="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",
+  api_key="Key",
 )
 
 completion = client.chat.completions.create(
