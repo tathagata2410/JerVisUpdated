@@ -13,7 +13,7 @@ import subprocess
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init() 
-newsapi = "b8ca25165f4d45ce9a1a631ca9bd5a25"
+newsapi = "Key"
 
 def speak_old(text):
     engine.say(text)
